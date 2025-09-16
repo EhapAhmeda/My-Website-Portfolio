@@ -334,11 +334,21 @@ section {
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "image text";
     align-items: center;
     gap: 2rem;
     padding: 80px 10%;
     background-color: #f0f0f0;
     box-shadow: 0 0 30px rgba(0, 238, 255, 0.2);
+}
+
+.about-img {
+    grid-area: image;
+    text-align: center;
+}
+
+.about-text {
+    grid-area: text;
 }
 
 .about-img img {
@@ -762,6 +772,25 @@ section {
     .skill-box:hover {
     transform: scale(1.05);
 }
+.about {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "text"
+            "image";
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h3 {
+        font-size: 28px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
 
 
 }
