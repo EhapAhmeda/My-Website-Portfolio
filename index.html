@@ -12,23 +12,52 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Icons Link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+
 
     <title>Ehab Ahmed Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
 </head>
 
 <body>
 
-    <header>
-        <a href="#" class="logo">Ehab Ahmed</a>
-        <nav class="navigation">
-            <a href="#Home" class="active">Home</a>
-            <a href="#About">About</a>
-            <a href="#Skills">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <!-- Header / Navbar Section -->
+<header>
+    <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+            <h2 class="logo-text">Ehab Ahmed</h2>
+        </a>
+
+        <ul class="nav-menu">
+            <div id="menu-close-button" class="fas fa-times"></div>
+
+            <li class="nav-item">
+                <a href="#Home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#Contact" class="nav-link" style="padding-right: 20px;">Contact</a>
+            </li>
+        </ul>
+
+
+        <div id="menu-open-button" class="fas fa-bars"></div>
+    </nav>
+</header>
 
     <section class="home" id="Home">
         <div class="home-content">
@@ -79,90 +108,90 @@
 
     </section>
 
-    
+
     <!---------------- Skills Section ------------------>
-<section id="Skills">
-    <h2 class="sub-title">My <span>Skills &</span> <span>Technologies</span></h2>
-    <p>Transforming Ideas into Reality with the Right Tools</p>
+    <section id="Skills">
+        <h2 class="sub-title">My <span>Skills &</span> <span>Technologies</span></h2>
+        <p>Transforming Ideas into Reality with the Right Tools</p>
 
-    <div class="skills-grid">
-        <!-- Front-End -->
-        <div class="skill-box">
-            <div class="Title">
-                <h3>Front-End</h3>
+        <div class="skills-grid">
+            <!-- Front-End -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h3>Front-End</h3>
+                </div>
+                <ul>
+                    <li><i class='bx bxl-html5' style='color:#c95d2e'></i> HTML</li>
+                    <li><i class='bx bxl-css3' style='color:#147bbc'></i> CSS</li>
+                    <li><i class='bx bxl-javascript' style='color:#b0bc1e'></i> JavaScript</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bxl-html5' style='color:#c95d2e'></i> HTML</li>
-                <li><i class='bx bxl-css3' style='color:#147bbc'></i> CSS</li>
-                <li><i class='bx bxl-javascript' style='color:#b0bc1e'></i> JavaScript</li>
-            </ul>
-        </div>
 
-        <!-- UI/UX Design -->
-        <div class="skill-box">
-            <div class="Title">
-                <h3>UI/UX Design</h3>
+            <!-- UI/UX Design -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h3>UI/UX Design</h3>
+                </div>
+                <ul>
+                    <li><i class='bx bxl-bootstrap' style='color:#c32ec9'></i> Bootstrap</li>
+                    <li><i class='bx bxl-jquery' style='color:#69bcbc'></i> jQuery</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bxl-bootstrap' style='color:#c32ec9'></i> Bootstrap</li>
-                <li><i class='bx bxl-jquery' style='color:#69bcbc'></i> jQuery</li>
-            </ul>
-        </div>
 
-        <!-- Back-End -->
-        <div class="skill-box">
-            <div class="Title">
-                <h3>Back-End</h3>
+            <!-- Back-End -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h3>Back-End</h3>
+                </div>
+                <ul>
+                    <li><i class='bx bxl-windows' style='color:#512BD4'></i> .NET</li>
+                    <li><i class='bx bxl-c-plus-plus' style='color:#00599C'></i> C / C++</li>
+                    <li><i class='bx bxl-python' style='color:#3776AB'></i> C#</li>
+                    <li><i class='bx bxl-javascript' style='color:#b0bc1e'></i> JavaScript</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bxl-windows' style='color:#512BD4'></i> .NET</li>
-                <li><i class='bx bxl-c-plus-plus' style='color:#00599C'></i> C / C++</li>
-                <li><i class='bx bxl-python' style='color:#3776AB'></i> C#</li>
-                <li><i class='bx bxl-javascript' style='color:#b0bc1e'></i> JavaScript</li>
-            </ul>
-        </div>
 
-        <!-- Databases -->
-        <div class="skill-box">
-            <div class="Title">
-                <h3>Databases</h3>
+            <!-- Databases -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h3>Databases</h3>
+                </div>
+                <ul>
+                    <li><i class='bx bx-data' style='color:#4479A1'></i> MySQL Workbench</li>
+                    <li><i class='bx bx-data' style='color:#4479A1'></i> SQL-Server</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bx-data' style='color:#4479A1'></i> MySQL Workbench</li>
-                <li><i class='bx bx-data' style='color:#4479A1'></i> SQL-Server</li>
-            </ul>
-        </div>
 
-        <!-- Version Control -->
-        <div class="skill-box">
-            <div class="Title">
-                <h3>Version Control</h3>
+            <!-- Version Control -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h3>Version Control</h3>
+                </div>
+                <ul>
+                    <li><i class='bx bxl-git' style='color:#F1502F'></i> Git</li>
+                    <li><i class='bx bxl-github' style='color:#000'></i> GitHub</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bxl-git' style='color:#F1502F'></i> Git</li>
-                <li><i class='bx bxl-github' style='color:#000'></i> GitHub</li>
-            </ul>
-        </div>
 
-        <!-- Tools & Deployment -->
-        <div class="skill-box">
-            <div class="Title">
-                <h4>Tools & Deployment</h4>
+            <!-- Tools & Deployment -->
+            <div class="skill-box">
+                <div class="Title">
+                    <h4>Tools & Deployment</h4>
+                </div>
+                <ul>
+                    <li><i class='bx bx-cloud' style='color:#0ef'></i> Cloud / Deployment</li>
+                    <li><i class='bx bx-terminal' style='color:#00ff88'></i> Command Line Tools</li>
+                </ul>
             </div>
-            <ul>
-                <li><i class='bx bx-cloud' style='color:#0ef'></i> Cloud / Deployment</li>
-                <li><i class='bx bx-terminal' style='color:#00ff88'></i> Command Line Tools</li>
-            </ul>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
 
     <!-- Services Section -->
-    <section class="cards" id="services">
-        <h1 class="title">Services</h1>
+    <section class="cards" id="Services">
+        <h1 class="title">My Services</h1>
         <div class="content">
 
             <div class="card">
@@ -221,28 +250,6 @@
 
             <div class="card">
                 <div class="icon">
-                    <i class='bx bx-shield-quarter'></i>
-                </div>
-                <div class="info">
-                    <h3>Security & Optimization</h3>
-                    <p>Ensuring application security, speed, and optimization for the best performance and user trust.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <i class='bx bx-git-branch'></i>
-                </div>
-                <div class="info">
-                    <h3>Version Control & Collaboration</h3>
-                    <p>Using Git and GitHub/GitLab for source code management, team collaboration, and maintaining clean
-                        development workflows.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
                     <i class='bx bx-analyse'></i>
                 </div>
                 <div class="info">
@@ -252,22 +259,11 @@
                 </div>
             </div>
 
-            <div class="card">
-                <div class="icon">
-                    <i class='bx bx-layer'></i>
-                </div>
-                <div class="info">
-                    <h3>Architecture & Design Patterns</h3>
-                    <p>Implementing clean architecture, SOLID principles, and design patterns to build scalable,
-                        maintainable, and efficient solutions.</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
+    <section class="projects" id="Projects">
         <h1 class="title">Projects</h1>
         <div class="content">
 
@@ -381,64 +377,165 @@
 
 
     <!-- Contact Section -->
-    <section class="cards contact" id="contact">
-        <h2 class="title">Let's work together</h2>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-phone"></i>
+    <section class="cards contact" id="Contact">
+        <h2 class="title">Get In Touch</h2>
+        <p id="R">Ready to Collaborate? Lets Discuss Your Project and Bring Your Ideas to Life</p>
+
+        <div class="wrapper">
+            <div class="content_1">
+                <div style="margin: 50px 20px;">
+                    <div class="contact-information">
+                        <i class="fas fa-envelope Contact"></i>
+                        <span>Contact Information</span>
+                    </div>
                 </div>
-                <div class="info">
-                    <h2>Phone</h2>
-                    <p> 01080830512 or <br> 01095318831</p>
+                <div style="margin: 50px 50px;">
+                    <div class="Email-contact">
+                        <i class="fas fa-envelope Email"></i>
+                        <div class="info-text">
+                            <span class="label">Email</span>
+                            <span class="value">ehapahmed010@gamil.com</span>
+                        </div>
+                    </div>
                 </div>
+
+                <div style="margin: 50px 50px;">
+                    <div class="Phone-contact">
+                        <i class="fas fa-phone Phone"></i>
+                        <div class="info-text">
+                            <span class="label">Phone</span>
+                            <span class="value">+201080830512</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin: 50px 50px;">
+                    <div class="Location-contact">
+                        <i class="fas fa-map-marker-alt Location"></i>
+                        <div class="info-text">
+                            <span class="label">Location</span>
+                            <span class="value">Cairo, Egypt</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin: 50px 50px;">
+                    <div class="Linkedin-contact">
+                        <i class="fab fa-linkedin Linkedin"></i>
+                        <div class="info-text">
+                            <span class="label">LinkedIn</span>
+                            <span class="value">linkedin.com/in/ehab-ahmed-abdelhamid-582b22284</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin: 50px 50px;">
+                    <div class="Github-contact">
+                        <i class="fab fa-github Github"></i>
+                        <div class="info-text">
+                            <span class="label">GitHub</span>
+                            <span class="value">
+                                github.com/EhapAhmeda
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
+
+            <div class="content_2">
+
+                <div class="row_2">
+                    <div style="margin: 10px;">
+                        <a href="https://wa.me/201080830512" target="_blank" class="Whatsapp-contact_2">
+                            <div class="box_2">
+                                <i class="fab fa-whatsapp Whatsapp_2"></i>
+                                <span class="title_2">WhatsApp</span>
+                                <span class="message_2">Quick Chat on WhatsApp</span>
+                                <span class="status_2"><span class="dot_2"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div style="margin: 10px;">
+                        <a href="https://m.me/yourusername" target="_blank" class="Messenger-contact_2">
+                            <div class="box_2">
+                                <i class="fab fa-facebook-messenger Messenger_2"></i>
+                                <span class="title_2">Messenger</span>
+                                <span class="message_2">Chat with me on Messenger</span>
+                                <span class="status_2 messenger"><span class="dot_2 messenger"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="info">
-                    <h2>Email</h2>
-                    <p><a href="mailto:ehapahmed010@gmail.com">ehapahmed010@ gmail.com</a></p>
+
+                <div class="row_2">
+                    <div style="margin: 10px;">
+                        <a href="https://t.me/Ehab_Ahmed11" target="_blank" class="Telegram-contact_2">
+                            <div class="box_2">
+                                <i class="fab fa-telegram-plane Telegram_2"></i>
+                                <span class="title_2">Telegram</span>
+                                <span class="message_2">Join me on Telegram</span>
+                                <span class="status_2"><span class="dot_2"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div style="margin: 10px;">
+                        <a href="mailto:example@email.com" class="Email-contact_2">
+                            <div class="box_2">
+                                <i class="fas fa-envelope Email_2"></i>
+                                <span class="title_2">Email</span>
+                                <span class="message_2">Send me an Email</span>
+                                <span class="status_2"><span class="dot_2"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
+
+                <div class="row_2">
+                    <div style="margin: 10px;">
+                        <a href="https://www.linkedin.com/in/ehab-ahmed-abdelhamid-582b22284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAHe09YVTQRKki7Wu5bKGRw%3D%3D"
+                            target="_blank" class="Linkedin-contact_2">
+                            <div class="box_2">
+                                <i class="fab fa-linkedin Linkedin_2"></i>
+                                <span class="title_2">LinkedIn</span>
+                                <span class="message_2">Connect on LinkedIn</span>
+                                <span class="status_2 linkedin"><span class="dot_2 linkedin"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div style="margin: 10px;">
+                        <a href="https://github.com/EhapAhmeda" target="_blank" class="Github-contact_2">
+                            <div class="box_2">
+                                <i class="fab fa-github Github_2"></i>
+                                <span class="title_2">GitHub</span>
+                                <span class="message_2">Check my GitHub</span>
+                                <span class="status_2 github"><span class="dot_2 github"></span> Online</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fab fa-linkedin"></i>
-                </div>
-                <div class="info">
-                    <h2>LinkedIn Profile</h2>
-                    <p><a href="https://www.linkedin.com/in/ehab-ahmed-abdelhamid-582b22284/"
-                            target="_blank">linkedin.com/in/ehab-ahmed-abdelhamid</a></p>
-                </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p class="footer-title">Copyrights @2025 <span>Eng. Ehab Ahmed </span></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fab fa-github"></i>
-                </div>
-                <div class="info">
-                    <h2>GitHub Profile</h2>
-                    <p><a href="https://github.com/EhapAhmeda" target="_blank">github.com/Ehap-Ahmeda</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </footer>
 
-
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p class="footer-title">Copyrights @2025 <span>Eng. Ehab Ahmed </span></p>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-    </footer>
-
-    <script src="JS/main.js"></script>
+        <script src="JS/main.js"></script>
 </body>
 
 </html>
