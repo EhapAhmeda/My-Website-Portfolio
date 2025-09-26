@@ -1511,6 +1511,15 @@ section {
         font-size: 1.5em;
     }
 
-
+    .project-card {
+        background-color: #fff;
+        border: 1px solid #fff;
+        min-height: 20em;
+        width: 22em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+        transition: 0.7s ease;
+    }
 
 }
