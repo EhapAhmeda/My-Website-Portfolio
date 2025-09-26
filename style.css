@@ -1522,4 +1522,10 @@ section {
         transition: 0.7s ease;
     }
 
+    /* Hover effect like Services */
+.skill-box:hover {
+    background-color: #dcd9e7;
+    transform: scale(1);
+}
+
 }
