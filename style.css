@@ -122,7 +122,7 @@ section {
 
 .card {
     background-color: #01013b;
-    width: 21.25em;
+    width: 20em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
@@ -1522,7 +1522,7 @@ section {
         transition: 0.7s ease;
     }
     .project-card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
     /* Hover effect like Services */
